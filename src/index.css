@@ -12,6 +12,20 @@ body {
   background-color: rgb(242,246,255)!important;
   color:black;
 }
+@media only screen and (max-width: 800px) {
+  .MuiGrid-spacing-xs-3.MuiGrid-grid-xs-4 {
+    flex-grow: 0;
+    max-width: 100%!important;
+    flex-basis: 100%!important;
+    margin-top: 20px;
+  }
+  .MuiGrid-grid-xs-8 {
+    flex-grow: 0;
+    max-width: 100%!important;
+    flex-basis: 100%!important;
+  }
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
