@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/05f12e4a-6d9b-4244-8e78-940701839e8f/deploy-status)](https://app.netlify.com/sites/friendly-torvalds-cfebf3/deploys)
+Deployed on [https://profile-membership.netlify.app/]
 
 # Profile Page with Membership Plan
 
