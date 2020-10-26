@@ -18,6 +18,10 @@ body {
     max-width: 100%!important;
     flex-basis: 100%!important;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .MuiGrid-grid-xs-8 {
     flex-grow: 0;
