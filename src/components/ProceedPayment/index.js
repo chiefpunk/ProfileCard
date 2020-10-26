@@ -13,7 +13,8 @@ const useStyles = makeStyles((theme) => ({
       paddingTop:27,
       paddingBottom:27,
       textTransform:'none',
-      fontSize:22
+      fontSize:22,
+      marginTop:theme.spacing(9)
   }
 }));
 
@@ -32,7 +33,6 @@ export default function Index(props) {
         validators={["required", "isEmail"]}
         errorMessages={["This field is required", "Email is not valid"]}
       />
-      <br></br>
       <Button variant="contained" color="primary" fullWidth size="large" endIcon={<ArrowForwardIcon />} className={classes.button}>
         Proceed to payment
       </Button>
