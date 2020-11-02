@@ -74,14 +74,14 @@ export default function Index(props) {
       </Box>
       <Box className={classes.box}>
         <Avatar
-          alt="Maksim Damaskin"
+          alt="Roy Chong"
           src={profileImage}
           className={classes.large}
         />
       </Box>
       <Box className={classes.content}>
         <Typography variant="h6" className={classes.name}>
-          Maksim Damaskin
+          Roy Chong
         </Typography>
         <Typography
           variant="h6"
@@ -89,7 +89,7 @@ export default function Index(props) {
           className={classes.location}
           color={"textSecondary"}
         >
-          San Francisco
+          Edmonton, AB, Canada
         </Typography>
         <Button variant="contained" color="primary" className={classes.button}>
           Pro Level

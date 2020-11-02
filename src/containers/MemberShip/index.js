@@ -33,7 +33,7 @@ export default function Index(props) {
     setEmail(email);
   };
   const handleSubmit = () => {
-    console.log("maksim");
+    console.log("roy");
   };
 
   return (
